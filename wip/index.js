@@ -1,0 +1,1 @@
+document.getElementById('return_link').href = `${document.location.origin}/`;
