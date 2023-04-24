@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <script type="module" src="../JS/structure.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="main_content">
+                <div id="sections">
+                    <div id="search_section" class="section">
+                        <h1 id="search_header">Search</h1>
+                        <div id="suppliers">
+                                
+                        </div>
+                        <label for="sort_select">Sort by:</label>
+                        <select id="sort_select" name="sort">
+                            <option value="">Choose</option>
+                            <option value="price">Price</option>
+                            <option value="amount">Amount</option>
+                            <option value="amount_price">Amount / Price</option>
+                        </select>
+                        <label for="sort_dir">Best to worst</label>
+                        <input id="sort_dir" type="checkbox" checked="true">
+                    </div>
+                    <div id="products_section" class="section">
+                        <div id="products_section_grid" class="product_grid">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
