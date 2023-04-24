@@ -1,0 +1,55 @@
+#sections .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+path {
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+
+svg {
+    color: rgb(255, 255, 255);
+}
+
+#header_section {
+    padding: 20rem 0 20rem 0;
+}
+
+#products_section {
+    height: 20rem;
+    margin-bottom: 20rem;
+}
+
+#footer_section {
+    height: 20rem;
+}
+
+#header_section>#products {
+    display: flex;
+}
+
+.arrow {
+    fill: var(--highlight-col);
+}
+
+:is(#header_section, #products_section, #footer_section)> :is(h1, p) {
+    margin: 1rem 0;
+    width: min(75%, 50rem);
+    text-align: center;
+    vertical-align: middle;
+}
+
+.product_text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
