@@ -1,1 +1,0 @@
-document.getElementById('return_link').href = `../`;
